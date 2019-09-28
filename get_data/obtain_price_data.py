@@ -51,7 +51,6 @@ def insert_daily_data_into_db(data_vendor_id, symbol_id, hist_data: pd.DataFrame
     # create the time now (utc time)
     now = datetime.datetime.utcnow()
 
-
     # change the column name
     hist_data.reset_index(inplace=True)
     hist_data = hist_data.rename(columns={'Date': 'price_date', 'Open': 'open_price', 'High': 'high_price',
@@ -78,7 +77,6 @@ def insert_daily_data_into_db(data_vendor_id, symbol_id, hist_data: pd.DataFrame
         data = [tuple(x) for x in chunk_df.values.tolist()]
         mysql_cursor.executemany(req, data)
         connect.commit()
-
 
     mysql_cursor.close()
 
