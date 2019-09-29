@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d77a5de-7065-4077-93df-5c36c742fb55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get_data/example/example_get_future_data_quandl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/event/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xiaowei.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtest/backtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtest/random_forecast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_data/obtain_price_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_data/obtain_price_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   <component name="ProjectId" id="1R4NgYsLqprZCdPI1cfsdstF55A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example_get_future_data_quandl">
+  <component name="RunManager" selected="Python.random_forecast">
     <configuration name="example_get_future_data_quandl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="trading" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,6 +120,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random_forecast" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/backtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/backtest/random_forecast.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scrape_symbols" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="trading" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_forecast" />
         <item itemvalue="Python.example_get_future_data_quandl" />
         <item itemvalue="Python.obtain_price_data" />
         <item itemvalue="Python.scrape_symbols" />
@@ -169,7 +193,8 @@
       <workItem from="1569272994727" duration="905000" />
       <workItem from="1569359659761" duration="4765000" />
       <workItem from="1569532110622" duration="1364000" />
-      <workItem from="1569659155423" duration="4371000" />
+      <workItem from="1569659155423" duration="4519000" />
+      <workItem from="1569742973325" duration="16890000" />
     </task>
     <servers />
   </component>
@@ -232,5 +257,6 @@
     <SUITE FILE_PATH="coverage/trading$parse_html_beautifulsoup.coverage" NAME="parse_html_beautifulsoup Coverage Results" MODIFIED="1569087014082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data" />
     <SUITE FILE_PATH="coverage/trading$obtain_price_data.coverage" NAME="obtain_price_data Coverage Results" MODIFIED="1569363245534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data" />
     <SUITE FILE_PATH="coverage/trading$example_get_future_data_quandl.coverage" NAME="example_get_future_data_quandl Coverage Results" MODIFIED="1569364262837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/get_data/example" />
+    <SUITE FILE_PATH="coverage/trading$random_forecast.coverage" NAME="random_forecast Coverage Results" MODIFIED="1569788100998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/backtest" />
   </component>
 </project>
